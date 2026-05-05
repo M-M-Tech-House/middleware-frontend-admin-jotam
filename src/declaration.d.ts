@@ -1,1 +1,1 @@
-declare module '@M-M-Tech-House/enode-restaurant-client-package';
+declare module '@M-M-Tech-House/jotam-autopartes-admin-ui';
