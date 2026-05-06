@@ -10,6 +10,7 @@ function App() {
     <ModulesProvider>
       <AdminApp config={{
         authHost: import.meta.env.VITE_AUTH_HOST,
+        appUrl: import.meta.env.VITE_APP_URL,
         withCredentials: JSON.parse(import.meta.env.VITE_WITH_CREDENTIALS ?? 'false'),
         defaultCurrencyType: import.meta.env.VITE_DEFAULT_CURRENCY_TYPE,
         defaultCurrencyLocal: import.meta.env.VITE_DEFAULT_CURRENCY_LOCAL
